@@ -1,6 +1,6 @@
-# RMM-Kernel build tooling
+# RMM build tooling for the Lumina Kernel
 
-Build-time tooling for the RMM-Kernel module system
+Build-time tooling for the Lumina module system
 
 It reads ELF64 object/executable symbol tables directly, computes module image headers with an embedded
 SHA-256, and runs the post-link over every linked module.
